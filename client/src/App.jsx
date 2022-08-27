@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./styles/styles.scss";
 import Routers from "./routes";
 import { ItemsProvider } from "./context/ItemsProvider";
