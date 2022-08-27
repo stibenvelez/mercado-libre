@@ -5,10 +5,7 @@ import ItemsContext from "../../context/ItemsProvider";
 import Breadcrumb from "../../components/Breadcrumb";
 
 const HomePage = () => {
-    const {
-        items,
-        loading,
-    } = useContext(ItemsContext);
+    const { items, loading } = useContext(ItemsContext);
 
     return (
         <div className={`${styles.homeContainer} container`}>

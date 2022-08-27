@@ -6,8 +6,14 @@
 
     .contentGrid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    @media (min-width: 900px) {
+        .contentGrid {
+            grid-template-columns: repeat(3, 1fr);
+        }
     }
 
     .imageContainer {
@@ -65,17 +71,19 @@
             }
         }
     }
-    
-    .btnBuy {
-    display: block;
-    width: 100%;
-    background-color: #3483fa;
-    color: white;
 
-    &:hover {
-        background-color: #4992ff;
+    .btnBuy {
+        display: block;
+        width: 100%;
+        background-color: #3483fa;
+        color: white;
+
+        &:hover {
+            background-color: #4992ff;
+        }
+
+        &:focus{
+            outline: none;
+        }
     }
 }
-
-}
-

@@ -6,6 +6,8 @@ interface ContextState {
     items: any;
     handleGetItems: any;
     loading: boolean;
+    setSearchTerm: any;
+    searchTerm:any
 }
 
 const ItemsContext = createContext({} as ContextState);
@@ -13,6 +15,7 @@ const ItemsContext = createContext({} as ContextState);
 const ItemsProvider: FC<ContextState> = ({ children }: any) => {
     const [items, setItems] = useState([]);
     const [loading, setLoading] = useState(false);
+    const [searchTerm, setSearchTerm] = useState("")
 
     const handleGetItems = async (term: string) => {
         try {
@@ -33,7 +36,9 @@ const ItemsProvider: FC<ContextState> = ({ children }: any) => {
             value={{
                 items,
                 loading,
+                searchTerm,
                 handleGetItems,
+                setSearchTerm,
             }}
         >
             {children}

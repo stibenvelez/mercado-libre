@@ -8,6 +8,7 @@ const author = {
 
 export const getItems = async (req, res) => {
     const { q } = req.query;
+
     try {
         const {data} = await axios.get(
             `https://api.mercadolibre.com/sites/MCO/search?q=${q || ""}`
@@ -53,21 +54,14 @@ export const getItems = async (req, res) => {
 
 export const getItem = async (req, res) => {
     const { id } = req.params;
-    var config = {
-        method: "get",
 
-        headers: {
-            Authorization: "Bearer MVaNd6cF36b3Wz486zpnz0zaHsiLE6vt",
-        },
-    };
     try {
         const { data: item } = await axios.get(
-            `https://api.mercadolibre.com/items/${id}`,
-            config
+            `https://api.mercadolibre.com/items/${id}`
+
         );
         const { data: description } = await axios.get(
-            `https://api.mercadolibre.com/items/${id}/description`,
-            config
+            `https://api.mercadolibre.com/items/${id}/description`
         );
 
         const itemFormat = {

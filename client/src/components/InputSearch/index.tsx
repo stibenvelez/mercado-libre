@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./InputSearch.module.scss";
 
-const InputSearch = ({...rest}: any) => {
-
+const InputSearch = ({ ...rest }: any) => {
     return (
         <div className={`${styles.input}`}>
             <input

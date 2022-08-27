@@ -17,7 +17,7 @@ const ProductItem: FC<ProductItem> = ({ item }) => {
     return (
         <div className={styles.product}>
             <div className={styles.productContent}>
-                <Link to={`/${item.id}`}>
+                <Link to={`${item.id}`}>
                     <div className={styles.productImg}>
                         <img src={item.picture} />
                     </div>

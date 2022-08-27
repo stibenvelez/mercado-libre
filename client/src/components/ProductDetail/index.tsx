@@ -1,13 +1,13 @@
-import React, { FC } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { FC } from "react";
 import { formatMoney } from "../../helpers/formatMoney";
-import { Product } from "../../models/items.model";
-import Breadcrumb from "../Breadcrumb";
+import { Item } from "../../models/items.model";
 import styles from "./ProductDetail.module.scss";
 import ProductDetailSkeleton from "./ProductDetailSkeleton";
 
 interface ProductDetail {
-    item: Product;
+    item: {
+        item: Item;
+    };
     loading: boolean;
 }
 
@@ -19,7 +19,6 @@ const ProductDetail: FC<ProductDetail> = ({ item: { item }, loading }) => {
     }
     return (
         <div>
-            
             <div className={styles.productDetail}>
                 <div className={styles.contentGrid}>
                     <div className={styles.imageContainer}>
@@ -42,6 +41,7 @@ const ProductDetail: FC<ProductDetail> = ({ item: { item }, loading }) => {
                                 <h2>{title}</h2>
                                 <div className={styles.price}>
                                     <h3>{formatMoney(price.amount)}</h3>
+                                    <span>{price.decimals}</span>
                                 </div>
                             </div>
                             <div>

@@ -1,4 +1,3 @@
-
 export interface Item {
     id: string;
     title: string;
@@ -13,7 +12,7 @@ export interface Item {
 export interface Items {
     author: Author;
     Items: Item;
-    categories?:string[]
+    categories?: string[];
 }
 
 interface Author {
