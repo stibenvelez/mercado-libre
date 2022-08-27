@@ -1,0 +1,45 @@
+.input {
+    width: 100%;
+
+    border-radius: 0.25rem;
+    outline: 0;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    overflow: hidden;
+    display: flex;
+
+    input {
+        padding: 0.8rem;
+        font-size: 17px;
+        border: none;
+        width: 100%;
+
+        &:focus{
+            outline: 0;
+        }
+
+    }
+
+    button{
+        background-color: rgba(240, 240, 240, 0.933);
+        padding: .5rem;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+                    border: 0;
+            outline: 0;
+        &:hover{
+            background-color: rgba(224, 224, 224, 0.933);
+            border: 0;
+            outline: 0;
+        }
+        &:focus{
+                      border: 0;
+            outline: 0;  
+        }
+        svg{
+            height: 25px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Apple Ipod Touch 5g 16gb Negro Nuevo",
+        "price": 1980,
+        "state": "Nuevo",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor ut mauris ullamcorper elementum ac vel ex. Phasellus ullamcorper nibh risus, non molestie ante semper sit amet. Quisque bibendum nibh sed justo iaculis pretium. Sed aliquam at tellus finibus mattis. Mauris tempor turpis et massa lacinia, quis ultricies ipsum convallis. Nam non nunc ornare, pharetra lectus in, molestie dui. Aliquam posuere fermentum elit in auctor. Cras efficitur consequat nisi sit amet aliquet. Donec volutpat justo eget tempus dictum. Proin et est at dui efficitur vestibulum.",
+        "image": "/img/phone.jpg"
+    },
+    {
+        "title": "Samsumg 5g 16gb Negro Nuevo",
+        "price": 1000,
+        "state": "Nuevo",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor ut mauris ullamcorper elementum ac vel ex. Phasellus ullamcorper nibh risus, non molestie ante semper sit amet. Quisque bibendum nibh sed justo iaculis pretium. Sed aliquam at tellus finibus mattis. Mauris tempor turpis et massa lacinia, quis ultricies ipsum convallis. Nam non nunc ornare, pharetra lectus in, molestie dui. Aliquam posuere fermentum elit in auctor. Cras efficitur consequat nisi sit amet aliquet. Donec volutpat justo eget tempus dictum. Proin et est at dui efficitur vestibulum.",
+        "image": "/img/phone.jpg"
+    },
+    {
+        "title": "Motorola 5g 16gb Negro",
+        "price": 800,
+        "state": "Nuevo",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor ut mauris ullamcorper elementum ac vel ex. Phasellus ullamcorper nibh risus, non molestie ante semper sit amet. Quisque bibendum nibh sed justo iaculis pretium. Sed aliquam at tellus finibus mattis. Mauris tempor turpis et massa lacinia, quis ultricies ipsum convallis. Nam non nunc ornare, pharetra lectus in, molestie dui. Aliquam posuere fermentum elit in auctor. Cras efficitur consequat nisi sit amet aliquet. Donec volutpat justo eget tempus dictum. Proin et est at dui efficitur vestibulum.",
+        "image": "/img/phone.jpg"
+    },
+    {
+        "title": "Xiaomi 5g 16gb Negro",
+        "price": 750,
+        "state": "Nuevo",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor ut mauris ullamcorper elementum ac vel ex. Phasellus ullamcorper nibh risus, non molestie ante semper sit amet. Quisque bibendum nibh sed justo iaculis pretium. Sed aliquam at tellus finibus mattis. Mauris tempor turpis et massa lacinia, quis ultricies ipsum convallis. Nam non nunc ornare, pharetra lectus in, molestie dui. Aliquam posuere fermentum elit in auctor. Cras efficitur consequat nisi sit amet aliquet. Donec volutpat justo eget tempus dictum. Proin et est at dui efficitur vestibulum.",
+        "image": "/img/phone.jpg"
+    },
+    {
+        "title": "Apple Ipod Touch 5g 16gb Negro ",
+        "price": 1000,
+        "state": "Usado",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor ut mauris ullamcorper elementum ac vel ex. Phasellus ullamcorper nibh risus, non molestie ante semper sit amet. Quisque bibendum nibh sed justo iaculis pretium. Sed aliquam at tellus finibus mattis. Mauris tempor turpis et massa lacinia, quis ultricies ipsum convallis. Nam non nunc ornare, pharetra lectus in, molestie dui. Aliquam posuere fermentum elit in auctor. Cras efficitur consequat nisi sit amet aliquet. Donec volutpat justo eget tempus dictum. Proin et est at dui efficitur vestibulum.",
+        "image": "/img/phone.jpg"
+    }
+]
